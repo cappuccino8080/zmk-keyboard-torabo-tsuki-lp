@@ -16,6 +16,31 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <26 27>;
+            layers = <0>;
+        };
+
+        DQuot {
+            bindings = <&kp DQT>;
+            key-positions = <20 21>;
+            layers = <0>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <47 48>;
+            layers = <0>;
+        };
+
+        semi {
+            bindings = <&kp SEMI>;
+            key-positions = <19 20>;
+            layers = <0>;
+        };
+
+        SQuote {
+            bindings = <&kp SQT>;
+            key-positions = <48 49>;
+            layers = <0>;
         };
     };
 
