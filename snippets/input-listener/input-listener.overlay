@@ -5,9 +5,12 @@
     device = <&pointing_device>;
 
     /*
+     * トラックボールに合わせて、XY軸を反転させる。
      * トラックボールを動かしたら Layer4 を 5秒間有効化する。
      */
-    input-processors = <&zip_temp_layer 4 5000>;
+    input-processors =
+        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
+        <&zip_temp_layer 4 5000>;
 
     /*
      * Layer5 が有効な間だけ、トラックボール移動をスクロールに変換する。
