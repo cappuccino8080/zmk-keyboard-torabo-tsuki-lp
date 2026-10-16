@@ -70,11 +70,11 @@
 
         Function {
             bindings = <
-&trans  &trans           &trans     &trans     &trans      &trans                              &trans     &trans    &trans         &trans    &trans    &trans
-&trans  &kp LC(A)        &kp LC(W)  &kp LC(E)  &kp LC(R)   &trans                              &kp GRAVE  &kp PIPE  &kp BACKSLASH  &kp LBKT  &kp RBKT  &trans
-&trans  &kp EXCLAMATION  &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT  &trans  &trans         &kp CARET  &kp AMPS  &kp ASTRK      &kp LPAR  &kp RPAR  &trans
-&trans  &kp LC(Z)        &kp RC(X)  &kp RC(C)  &kp RC(V)   &trans       &trans  &kp LC(LS(N))  &kp LC(N)  &trans    &kp TILDE      &kp LT    &kp GT    &trans
-&trans  &trans           &trans     &trans     &trans      &trans       &trans  &trans         &trans     &trans    &trans         &trans    &trans    &trans
+&trans  &trans           &trans     &trans     &trans      &trans                              &trans     &trans     &trans         &trans    &trans    &trans
+&trans  &kp LC(A)        &kp LC(W)  &kp LC(E)  &kp LC(R)   &trans                              &kp GRAVE  &kp PIPE   &kp BACKSLASH  &kp LBKT  &kp RBKT  &trans
+&trans  &kp EXCLAMATION  &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT  &trans  &trans         &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR  &kp RPAR  &trans
+&trans  &kp LC(Z)        &kp RC(X)  &kp RC(C)  &kp RC(V)   &trans       &trans  &kp LC(LS(N))  &kp LC(N)  &kp EQUAL  &kp TILDE      &kp LT    &kp GT    &trans
+&trans  &trans           &trans     &trans     &trans      &trans       &trans  &trans         &trans     &trans     &trans         &trans    &trans    &trans
             >;
         };
 
